@@ -72,4 +72,4 @@ def create_app():
 
 if __name__ == "__main__":
     host = "carrierpoc-kr-gjdcgrdbb9ffffgy.eastus2-01.azurewebsites.net"
-    web.run_app(create_app(), host=host)
+    web.run_app(create_app(), host=host, port=8000)
