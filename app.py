@@ -69,7 +69,6 @@ def create_app():
     app.router.add_static('/', path=current_directory / 'static', name='static')
     
     return app
-
 if __name__ == "__main__":
     host = "voicetovoicechat-fcfshshaegevheb2.eastus2-01.azurewebsites.net"
     web.run_app(create_app(), host=host)
