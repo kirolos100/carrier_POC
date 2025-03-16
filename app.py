@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 # Assuming these are modified to work with Flask
 from ragtools import attach_rag_tools
 from rtmt import RTMiddleTier
+from flask_cors import CORS
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("voicerag")
