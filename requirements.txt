@@ -5,3 +5,9 @@ python-dotenv==1.0.1
 azure-storage-blob==12.23.1
 gunicorn
 rich
+Flask==3.1.0
+Flask-Cors==5.0.0
+Flask-RESTful==0.3.10
+flask-swagger-ui==4.11.1
+fastapi==0.115.8
+
