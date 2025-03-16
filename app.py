@@ -71,6 +71,5 @@ async def create_app():
     return app
 
 if __name__ == "__main__":
-    host = "localhost"
-    port = 8765
-    web.run_app(create_app(), host=host, port=port)
+    host = "voicetovoicechat-fcfshshaegevheb2.eastus2-01.azurewebsites.net"
+    web.run_app(create_app(), host=host)
