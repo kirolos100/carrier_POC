@@ -13,7 +13,7 @@ from rtmt import RTMiddleTier
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("voicerag")
 
-async def create_app():
+def create_app():
     if not os.environ.get("RUNNING_IN_PRODUCTION"):
         logger.info("Running in development mode, loading from .env file")
         load_dotenv()
